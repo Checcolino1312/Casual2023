@@ -12,7 +12,7 @@ function populateArray(array, fileURL, callback) {
 let pagine = [];
 
 // Popola l'array con il contenuto del file di testo
-populateArray(pagine, 'file.txt', () => {
+populateArray(pagine, 'https://checcolino1312.github.io/Casual2023/file.txt', () => {
   console.log(pagine);
 });
 
