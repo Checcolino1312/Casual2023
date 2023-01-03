@@ -12,7 +12,7 @@ function populateArray(array, fileURL, callback) {
 let pagine = [];
 
 // Popola l'array con il contenuto del file di testo
-populateArray(pagine, 'https://docs.google.com/document/d/e/2PACX-1vR7jWmRaONaPOTWHk5OaHjQyidoxOGa6blErdCX3SGx8Ie9Bfq4mo0Fc18cLP68V0OhC2Trr_TeleCU/pub', () => {
+populateArray(pagine, 'https://checcolino1312.github.io/Casual2023/file.txt', () => {
   console.log(pagine);
 });
 
